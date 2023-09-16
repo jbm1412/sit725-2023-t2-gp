@@ -1,0 +1,14 @@
+{
+  "name": "sit725-2023-t2-gp",
+  "version": "1.0.0",
+  "description": "OzGlobal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Team 9",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
