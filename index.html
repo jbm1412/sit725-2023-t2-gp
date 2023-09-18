@@ -17,7 +17,28 @@
             OzGlobal
         </h1>
     </header>
+    <br>
     <main>
+        <div class="container">
+            <h4>POSTS:</h4>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header"></div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name:</th>
+                                    <th>Question:</th>
+                                </tr>
+                            </thead>
+                            <tbody id="postquery"></tbody>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         <div class="container">
             <div class="left-col sidebar">
                 <div class="navbar">
@@ -61,10 +82,37 @@
 
 
             </div>
-            <div class="right-col">
+            <!-- <div class="right-col">
                 <h3>PHOTOS</h3>
                 <img src="Images/deakin.png" alt="">
                 <img src="Images/deakin.png" alt="">
+            </div> -->
+        </div>
+        <div class="container">
+            <br>
+            <div class=col-md-4>
+                <form>
+                    <div class="card">
+                        <br>
+                    <h5>Post A Query:</h5>
+                        <div class="container">
+                            <div class="card-text form-group">
+                                <input type="text" class="form-control" placeholder="Enter Name" id="fullname"
+                                    name="fullname" required>
+                            </div>
+                            <br>
+                            <div class="card-text form-group">
+                                <input type="text" class="form-control" placeholder="Write your Question"
+                                    id="question" name="question" required>
+                            </div>
+                            <br>
+                            <div class="col-sm-2">
+                                <input id="button" type="button" class="btn btn-primary" onclick="PostQuestion()"
+                                    value="Post Question">
+                            </div>
+                            <br>
+                        </div>
+                </form>
             </div>
         </div>
     </main>
@@ -73,6 +121,7 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="post.js"></script>
 </body>
 
 </html>
