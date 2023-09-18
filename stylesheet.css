@@ -190,3 +190,10 @@ a:hover {
     margin-left: 10px;
     margin-bottom: 15px;
 }
+
+.profile_img { 
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 400px;
+}
