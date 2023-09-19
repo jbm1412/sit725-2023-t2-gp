@@ -6,11 +6,13 @@ Team 9: OzGlobal
 <h2>Main Purpose</h2>
 <p>The main purpose of the OzGlobal online platform is to offer extensive support and solutions to international students who are studying in Melbourne. The platform is designed to tackle the common challenges that these students often face and to improve their overall experience by providing them with essential information, opportunities for community engagement, and personalized assistance.</p>
 <h2>Team Members</h2>
-<ul> Bharat Jitan Bhatt </ul>
-<ul> Manonarayanan Janardhan Bhagavathi </ul>
-<ul> Manasvini Duddukuru </ul>
-<ul> Rohit Rajendra Kadam </ul>
-<ul> Thomas Roy </ul>
+<li> Bharat Jitan Bhatt </li>
+<li> Manonarayanan Janardhan Bhagavathi </li>
+<li> Manasvini Duddukuru </li>
+<li> Rohit Rajendra Kadam </li>
+<li> Thomas Roy </li>
+<h2>Trello Board</h2>
+<p>Here's the link: <a target="_blank" href="https://trello.com/b/7tzyf2JK/ozglobal">OzGlobal</a></p>
 <h1>Sprint 1 Review</h1>
 <h2>Main Focus</h2>
-<p> Our focus for this sprint to make the website attractive, easily navigatable and proper functionality.</p>
+<p> Our focus for this sprint to make the website attractive, easily navigable and proper functionality.</p>
