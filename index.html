@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>OZGlobal</title>
 </head>
 
@@ -19,107 +19,154 @@
     </header>
     <br>
     <main>
+        <h1 class="container center">Welcome to OzGlobal!</h1>
+        <br>
         <div class="container">
             <h4>POSTS:</h4>
             <div class="row mt-5">
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-header"></div>
-                        <table class="table">
+                        <table class="table"
+                            style="background-color: rgb(49, 112, 152); color: white; font-weight: bold;">
                             <thead>
                                 <tr>
                                     <th>Name:</th>
                                     <th>Question:</th>
                                 </tr>
                             </thead>
-                            <tbody id="postquery"></tbody>
                             <tbody>
+                                <td>Mattew Thomas</td>
+                                <td>How to get accommodation near Deakin University?</td>
                             </tbody>
+                            <tbody>
+                                <td>Danielle Hempshey</td>
+                                <td>Which university is best for Sports Science?</td>
+                            </tbody>
+                            <tbody id="postquery"></tbody>
                         </table>
                     </div>
                 </div>
             </div>
-        <div class="container">
-            <div class="left-col sidebar">
-                <div class="navbar">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="login.html">Profile</a></li>
-                        <li><a href="explore.html">Explore</a></li>
-                        <li><a href="essential.html">Essential</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+            <div class="container">
+                <div class="left-col sidebar">
+                    <div class="navbar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="login.html">Profile</a></li>
+                            <li><a href="explore.html">Explore</a></li>
+                            <li><a href="essential.html">Essential</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <p>OzGlobal is an online platform designed for international students in Melbourne.
+                        It offers solutions to common problems that international students encounter while
+                        studying in Melbourne. As the first step, the website provides information about some
+                        of the top universities in Melbourne to help students decide which one to choose.
+                        Additionally, it shares valuable information about Melbourne City. Upon registration,
+                        each member will have a personal account where they can share their experiences and ask
+                        questions. Other members will have access to view these posts.</p>
+                    <br>
                 </div>
             </div>
-            <div class="center-col main-content">
+            <div class="container">
                 <br>
-                <h1>Welcome to OzGlobal!</h1>
-                <p>OzGlobal is an online platform designed for international students in Melbourne.
-                    It offers solutions to common problems that international students encounter while
-                    studying in Melbourne. As the first step, the website provides information about some
-                    of the top universities in Melbourne to help students decide which one to choose.
-                    Additionally, it shares valuable information about Melbourne City. Upon registration,
-                    each member will have a personal account where they can share their experiences and ask
-                    questions. Other members will have access to view these posts</p>
-<br>
-                <p>OzGlobal is an online platform designed for international students in Melbourne.
-                    It offers solutions to common problems that international students encounter while
-                    studying in Melbourne. As the first step, the website provides information about some
-                    of the top universities in Melbourne to help students decide which one to choose.
-                    Additionally, it shares valuable information about Melbourne City. Upon registration,
-                    each member will have a personal account where they can share their experiences and ask
-                    questions. Other members will have access to view these posts</p>
-<br>
-                <p>OzGlobal is an online platform designed for international students in Melbourne.
-                    It offers solutions to common problems that international students encounter while
-                    studying in Melbourne. As the first step, the website provides information about some
-                    of the top universities in Melbourne to help students decide which one to choose.
-                    Additionally, it shares valuable information about Melbourne City. Upon registration,
-                    each member will have a personal account where they can share their experiences and ask
-                    questions. Other members will have access to view these posts</p>
-
-
+                <div class=col-md-4>
+                    <form>
+                        <div class="card">
+                            <br>
+                            <h5>Post A Query:</h5>
+                            <div class="container">
+                                <div class="card-text form-group">
+                                    <input type="text" class="form-control" placeholder="Enter Name" id="fullname"
+                                        name="fullname" required>
+                                </div>
+                                <br>
+                                <div class="card-text form-group">
+                                    <input type="text" class="form-control" placeholder="Write your Question"
+                                        id="question" name="question" required>
+                                </div>
+                                <br>
+                                <div class="col-sm-2">
+                                    <input id="button" type="button" class="btn btn-primary" onclick="PostQuestion()"
+                                        value="Post Question">
+                                </div>
+                                <br>
+                            </div>
+                    </form>
+                </div>
             </div>
-            <!-- <div class="right-col">
-                <h3>PHOTOS</h3>
-                <img src="Images/deakin.png" alt="">
-                <img src="Images/deakin.png" alt="">
-            </div> -->
-        </div>
-        <div class="container">
             <br>
-            <div class=col-md-4>
-                <form>
-                    <div class="card">
-                        <br>
-                    <h5>Post A Query:</h5>
-                        <div class="container">
-                            <div class="card-text form-group">
-                                <input type="text" class="form-control" placeholder="Enter Name" id="fullname"
-                                    name="fullname" required>
-                            </div>
-                            <br>
-                            <div class="card-text form-group">
-                                <input type="text" class="form-control" placeholder="Write your Question"
-                                    id="question" name="question" required>
-                            </div>
-                            <br>
-                            <div class="col-sm-2">
-                                <input id="button" type="button" class="btn btn-primary" onclick="PostQuestion()"
-                                    value="Post Question">
-                            </div>
-                            <br>
-                        </div>
-                </form>
+            <h3>Latest News!</h3>
+            <br>
+            <h4>Updates on Student Visa</h4>
+            <br>
+            <div>
+                <p>
+                    Australian home affairs department has announced a significant improvement in the
+                    processing time for student visas, with the average processing time now reduced to
+                    just 16 days. This development comes after several major study destinations faced
+                    extensive visa delays in 2022 due to a surge in applications as the world began to
+                    recover from the pandemic.
+                    "Good news for international students! Additional Australian Government resourcing
+                    since 2022 has led to big reductions in average visa processing"
+                </p>
             </div>
-        </div>
+            <br>
+            <div>
+                <p>
+                    The Australian government on Friday announced that it will stop issuing Pandemic
+                    Event visa beginning February 2024. This move will affect a sizable amount of
+                    international students and temporary workers scrambling for other options to remain
+                    in the country.
+                </p>
+                <br>
+                <img src="https://cdn.pixabay.com/photo/2018/12/31/13/45/australia-3905135_640.jpg"
+                    alt="Melbourne-city">
+
+            </div>
+            <div>
+                <br>
+                <h4>Events</h4>
+                <br>
+                <h5>Fantastic Beasts: The Wonder of Nature</h5>
+                <p>
+                    Wonder at the magic of the creatures from the Wizarding World alongside the remarkable animals from
+                    London’s Natural History Museum collection.
+                    Diverse specimens and artefacts from the world-leading scientific collections of London’s Natural
+                    History Museum will be on display alongside custom made models from the Wizarding World, original
+                    artworks from Bloomsbury Publishing, and props from the Harry Potter and Fantastic Beasts film
+                    series.
+                    Created by Warner Bros. Discovery Global Themed Entertainment and the Natural History Museum London
+                    this extraordinary exhibition explores the links between the magical creatures of the wizarding
+                    world and the remarkable animals of our natural world.
+                </p>
+                <br>
+                <img src="https://artsreview.b-cdn.net/wp-content/uploads/2023/05/Installation-view-of-Fantastic-Beasts-The-Wonder-of-Nature-at-Melbourne-Museum-photo-by-Eugene-Hyland.jpg" alt="">>
+            </div>
+            <br>
+            <div>
+                <h5>Mebourne Royal Show</h5>
+                <p>
+                    The Melbourne Royal Show is Victoria’s largest and most iconic annual community event. It's a
+                    celebration like no other, guaranteed to bring bigger smiles and make more happy memories than ever
+                    before. 
+                    Get up close to animals, enjoy tantalising tastes, see world-class entertainment and so much more.
+                </p>
+                <br>
+                <img src="https://royalshow.com.au/wp-content/uploads/2023/08/AfterDark_Web_Banner_1024x329-1024x328.png" alt="">
+            </div>
     </main>
-    <div class="footer">
-        <p><center>All text and media is copyright&#169; to OzGlobal</center></p>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <footer>
+        <p>&copy; 2023 Ozglobal</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="post.js"></script>
 </body>
 
