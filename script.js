@@ -26,6 +26,10 @@ function postFeedback(feedback) {
         success: (result) => {
             if (result.statusCode === 200) {
                 alert('Feedback Submitted Successfully');
+                $('#fullname').val('');
+                $('#email').val('');
+                $('#provideFeedback').val('');
+                $('.modal').modal('close');
             }
         }
     });
