@@ -1,11 +1,9 @@
-let client = require('../dbConnection');
+let express = require('express');
+let router = express.Router();
+let controller = require('../controller/control'); 
 
-let feedbackcollection;
+router.post('/', (request, response) => {
+  controller.postFeed(request, response); 
+});
 
-feedbackcollection = client.db().collection('Feedback');
-
-function postFeedback(feedback, callback) {
-    feedbackcollection.insertOne(feedback, callback);
-}
-
-module.exports = postFeedback
+module.exports = router;
