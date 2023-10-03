@@ -1,4 +1,4 @@
-document.getElementById('loginForm').addEventListener('submit', function(event) {
+document.getElementById('loginForm').addEventListener('submit', function (event) {
     event.preventDefault();
     let username = document.getElementById('username');
     let password = document.getElementById('password');
@@ -9,9 +9,37 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     }
 });
 
+const submitForm = function () {
+    let FeedbackData = {}
+    FeedbackData.fullname = $('#fullname').val()
+    FeedbackData.email = $('#email').val()
+    FeedbackData.description = $('#provideFeedback').val()
+    console.log("Feedback Submitted Successfully: ", FeedbackData);
+    postFeedback(FeedbackData);
+}
+
+function postFeedback(feedback) {
+    $.ajax({
+        url: '/api/feedback',
+        type: 'POST',
+        data: feedback,
+        success: (result) => {
+            if (result.statusCode === 200) {
+                alert('Feedback Submitted Successfully');
+            }
+        }
+    });
+}
+
+$(document).ready(function () {
+    $('.modal').modal();
+    $('#SubmitFeedback').click(function () {
+        submitForm();
+    })
+});
 
 
- 
+
 
 
 
