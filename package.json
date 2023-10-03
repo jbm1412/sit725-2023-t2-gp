@@ -9,6 +9,7 @@
   "author": "Team 9",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^4.4.1"
   }
 }

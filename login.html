@@ -70,6 +70,41 @@
                 </div>
             </div>
         </div>
+        <div class="center-col">
+            <div class="col s12 center-align">
+                <a class="btn click-me-button modal-trigger" id="feedback" data-target="feedbackmodal"
+                    style="background-color: #0077b6;">Provide Feedback</a>
+            </div>
+            <div id="feedbackmodal" class="modal">
+                <div class="row modal-content white">
+                    <form class="col s12">
+                        <h3 class="center-align">Feedback Form</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="fullname" type="text">
+                                <label for="fullname">Full Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="email" type="email">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="provideFeedback" type="text">
+                                <label for="provideFeedback">Feedback</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 center-align">
+                                <a class="btn" id="SubmitFeedback" style="background-color: #0077b6;">Submit</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer style="position:fixed;bottom:0;left:0;width:100%;">
         <p>&copy; 2023 Ozglobal</p>
