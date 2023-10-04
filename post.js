@@ -13,4 +13,8 @@ function PostQuestion() {
     q.innerHTML = question;
 
 }
+let socket = io.connect('http://localhost:3000');
+socket.on('connect', function(){
+console.log('Connected to OzGlobal');
+});
 
