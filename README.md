@@ -13,6 +13,8 @@ Team 9: OzGlobal
 <li> Thomas Roy </li>
 <h2>Trello Board</h2>
 <p>Here's the link: <a target="_blank" href="https://trello.com/b/7tzyf2JK/ozglobal">OzGlobal</a></p>
+<h2>Docker Hub</h2>
+<p>Here's the link: <a target="_blank" href="https://hub.docker.com/repository/docker/jbm1412/sit725-2023-t2-gp/general">OzGlobal</a></p>
 <h1>Sprint 1 Review</h1>
 <h2>Main Focus</h2>
 <p> Our focus for this sprint to make the website attractive, easily navigable and proper functionality.</p>
