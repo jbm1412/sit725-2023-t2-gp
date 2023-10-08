@@ -16,3 +16,6 @@ Team 9: OzGlobal
 <h1>Sprint 1 Review</h1>
 <h2>Main Focus</h2>
 <p> Our focus for this sprint to make the website attractive, easily navigable and proper functionality.</p>
+<h1>Sprint 2 Review</h1>
+<h2>Main Focus</h2>
+<p>Our main focus for sprint 2 is to intiliase a database to store student feedback values, a socket for ensuring network connection, dockerization, unit testing and an MVC model.</p>
