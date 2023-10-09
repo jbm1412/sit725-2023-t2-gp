@@ -23,3 +23,5 @@ Team 9: OzGlobal
 <h1>Sprint 2 Review</h1>
 <h2>Main Focus</h2>
 <p>Our main focus for sprint 2 is to intiliase a database to store student feedback values, a socket for ensuring network connection, dockerization, unit testing and an MVC model.</p>
+<h1>How to run this project?</h1>
+<p>Press green button <b>"CODE"</b>, select <b>"HTTPS"</b> and copy the link. Create a folder in your designated path and open the terminal of that folder. Use <code>git clone <paste the git link></code> in your terminal run. Once the git has been cloned, use <code>ls</code> to list of the directory and you'll find <b>"sit725-2023-t2-gp"</b>. Use <code>cd sit725-2023-t2-gp</code> and run it. Later, use <code>node .</code> and run it, you see <b>"http://localhost:3000/"</b>. Press that link and the program starts to run.</p>
